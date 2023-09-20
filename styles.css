@@ -1,0 +1,105 @@
+/* This Stylesheet for Personal Information Page */
+
+@import url('https://fonts.maateen.me/adorsho-lipi/font.css');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 35px;
+    width: 150px;
+}
+.container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #007BFF;
+    
+}
+
+h2 {
+    color: #f6a707;
+    margin-top: 20px;
+    
+  }
+  h5 {
+    color: #080808;
+    margin-top: 20px;
+    text-align: left;
+    
+  }
+  h3 {
+    color: #050218;
+    margin-top: 20px;
+       
+  }
+
+p {
+    color: #555555;
+}
+
+.intro{
+    color: #555555;
+    text-align: justify;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+   }
+       
+ 
+input[type="submit"] {
+    background-color: #f6a707;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: #555555;
+      
+}
+
+input[type="submit"]:hover{
+    background-color: #f65b07;
+    color: #040404;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+#conversionType{
+    width: 370px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 380px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/*---- The End ----*/
